@@ -1,0 +1,22 @@
+table {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+table td {
+    height: 25px;
+}
+
+#id {
+    width: 200px;
+}
+
+table span {
+    margin-left: 20px;
+}
+
+table strong {
+    margin-left: 20px;
+}

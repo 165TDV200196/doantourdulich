@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------------------menu------------------ */
+
+
+/* 
+.menu {
+    background-color: #225486;
+    height: 40px;
+    color: white;
+}
+
+.menu>ul>li {
+    float: left;
+    list-style-type: none;
+    line-height: 40px;
+    padding: 0px 15px;
+    position: relative;
+    left: 252px;
+}
+
+.menu ul ul {
+    position: absolute;
+}
+
+.menu>ul>li a {
+    text-decoration: none;
+    padding: 0px 10px;
+    display: block;
+    color: white;
+}
+
+.menu li>ul {
+    list-style: none;
+    background-color: #225486;
+    width: 200px;
+    display: none;
+}
+
+.menu>ul>li a:hover {
+    color: cyan;
+}
+
+.submenu>li>ul>li {
+    display: flex;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+}
+
+.submenu>li:hover>ul {
+    display: block;
+}
+
+
+/* ------------------ top-header -------------- */
+
+.top-header {
+    background-color: silver;
+    height: 60px;
+    width: 100%;
+}
+
+.top-header>span {
+    position: absolute;
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+.top-header>img {
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+}
+
+*/
+/* ---------------------- content -------------- */
+
+.content {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.boxdat {
+    height: 531px;
+    width: 1140px;
+    background-color: #e6e6fa;
+    margin: 30px auto;
+    border-radius: 2px;
+}
+
+.boxdat .name {
+    height: 72px;
+}
+
+.name>p {
+    line-height: 72px;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding-left: 20px;
+}
+
+.form .image {
+    float: left;
+    width: 50%;
+}
+
+.image>img {
+    margin: 0 auto;
+    display: block;
+}
+
+.text-box span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-box p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.text-box ul li {
+    list-style-type: none;
+    float: left;
+    padding-right: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+input[type="number"] {
+    width: 67px;
+    height: 22px;
+}
+
+.text-box a {
+    padding: 10px 20px;
+    background-color: greenyellow;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    border-radius: 4px;
+    position: absolute;
+    right: 150px;
+    top: 580px;
+}
+
+.text-box a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.text-box img {
+    width: 20px;
+    position: relative;
+    top: 116px;
+    left: -117px;
+    z-index: 10;
+}
+
+input#as {
+    margin-left: 25px;
+}
+
+input#as1 {
+    margin-left: 28px;
+}
+
+p#tt {
+    position: absolute;
+    left: 697px;
+    top: 595px;
+    font-size: 20px;
+}
+
+.text-box hr {
+    border: 0;
+    height: 1px;
+    background-color: slateblue;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+/* ----------------- chi tiet -------------- */
+
+.chitiet {
+    clear: both;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chitiet>p {
+    margin-left: 105px;
+}
+
+.box-chuongtrinh {
+    width: 847px;
+    border: 1px solid silver;
+    margin-left: 105px;
+    overflow: hidden;
+}
+
+.box-chuongtrinh p {
+    font-size: 16px;
+    padding: 16px 15px;
+}
+
+
+/* ----------------- tour cùng loại --------------- */
+
+.tuor-cung-loai>p {
+    padding-left: 105px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.box_dulich a {
+    color: black;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.box_dulich a:hover {
+    color: deeppink;
+}
+
+.tuor-cung-loai>hr {
+    width: 1140px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    border: 0;
+    height: 1px;
+    background-color: #a8d4ff;
+}
+
+.box_dulich>hr {
+    border: 0;
+    background: silver;
+    width: 300px;
+    margin: 0 auto;
+    height: 1px;
+}
+
+.box_dulich {
+    width: 363px;
+    height: 360px;
+    box-shadow: 0 0 10px 4px silver;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    position: relative;
+    left: 110px;
+}
+
+.box_dulich .img {
+    /* background: url('img/cauvang.jpg') no-repeat;
+    background-size: cover; */
+    width: 100%;
+    height: 242px;
+    overflow: hidden;
+}
+
+.img>img {
+    transition: 0.4s;
+}
+
+.img>img:hover {
+    transform: scale(1.1);
+}
+
+.address {
+    height: 58px;
+    line-height: 58px;
+    text-align: left;
+    padding-left: 32px;
+}
+
+.price {
+    height: 58px;
+    line-height: 58px;
+    text-align: left;
+    padding-left: 32px;
+}
+
+
+/* ---------------- footer -------------- */
+
+
+/* .footer {
+    clear: both;
+    background-color: #225486;
+    height: 320px;
+    background: url('img/nui.jpg') no-repeat;
+    background-size: cover;
+    color: #2d427b;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer p {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 1px snow;
+}
+
+.footer span {
+    font-size: 17px;
+    margin-left: 40px;
+}
+
+.footer ul {
+    margin-left: 150px;
+}
+
+.footer ul li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #2d427b;
+}
+
+.footer-left {
+    float: left;
+    width: 33%;
+}
+
+.footer-right {
+    float: left;
+    width: 33%;
+}
+
+.mangxahoi {
+    float: left;
+    width: 33%;
+} */

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    background-color: brown;
+    height: 100vh;
+    background: url('canh.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.content p {
+    text-align: center;
+    font-size: 32px;
+    padding: 15px;
+    font-family: serif;
+}
+
+strong#a:hover {
+    text-decoration: underline;
+}
+
+.box {
+    width: 359px;
+    color: black;
+    margin: 0 auto;
+    opacity: initial;
+    font-size: 20px;
+}
+
+.content strong {
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    height: 22px;
+    border-radius: 6px;
+    width: 260px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+input[type="password"]:hover {
+    border: 1px solid dimgray;
+    width: 270px;
+}
+
+input[type="button"] {
+    margin-top: 20px;
+    width: 233px;
+    height: 40px;
+    position: relative;
+    left: 48px;
+    border: 1px solid pink;
+    border-radius: 34px;
+    transition: 0.3s;
+}
+
+.bao {
+    float: left;
+    padding: 12px;
+    background-color: blueviolet;
+    margin-right: 20px;
+    border: 1px solid brown;
+    border-radius: 51%;
+    transition: 0.5s;
+}
+
+.icon {
+    position: relative;
+    left: 160px;
+    top: 32px;
+}
+
+input[type="button"]:hover {
+    color: white;
+    background-color: black;
+}
+
+input[type="password"] {
+    height: 22px;
+    border-radius: 6px;
+    width: 260px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+input[type="text"]:hover {
+    border: 1px solid dimgray;
+    width: 270px;
+}
+
+.content {
+    background-color: cadetblue;
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    height: 90vh;
+    border: 3px solid silver;
+    border-radius: 13px;
+    opacity: 0.8;
+}
+
+div#fb {
+    font-size: 20px;
+    padding: 10px 14px;
+    background-color: #4157a7;
+}
+
+div#gg {
+    padding: 11px 12px;
+    background-color: #e44134;
+}
+
+div#tw {
+    background-color: #1c9deb;
+}
+
+div#gg:hover {
+    background-color: silver;
+    color: red;
+}
+
+div#tw:hover {
+    background-color: silver;
+    color: dodgerblue;
+}
+
+div#fb:hover {
+    background-color: silver;
+    color: blue;
+}

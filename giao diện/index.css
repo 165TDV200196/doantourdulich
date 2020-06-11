@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.menu {
+    background-color: black;
+    height: 40px;
+    color: white;
+}
+
+.menu>ul>li {
+    float: left;
+    list-style-type: none;
+    line-height: 40px;
+    padding: 0px 15px;
+    position: relative;
+    left: 252px;
+}
+
+.menu ul ul {
+    position: absolute;
+}
+
+.menu>ul>li a {
+    text-decoration: none;
+    padding: 0px 10px;
+    display: block;
+    color: white;
+}
+
+input#seach {
+    border: 2px solid white;
+    width: 400px;
+    height: 27px;
+    border-radius: 5px;
+    position: relative;
+    top: 68px;
+    left: 180px;
+}
+
+.menu li>ul {
+    list-style: none;
+    background-color: black;
+    width: 200px;
+    display: none;
+}
+
+.menu>ul>li a:hover {
+    color: cyan;
+}
+
+.submenu>li>ul>li {
+    display: flex;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+}
+
+.submenu>li:hover>ul {
+    display: block;
+}
+
+.header {
+    background-color: dimgray;
+    position: absolute;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.banner {
+    background: url("slider_1.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    background-color: #f1f1f1;
+}
+
+.login {
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.login a:hover {
+    color: white;
+}
+
+.cam_nang_du_lich>p {
+    font-size: 31px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 11px;
+}
+
+.cam_nang_du_lich>span {
+    font-size: 18px;
+}
+
+.cam_nang_du_lich {
+    text-align: center;
+}
+
+.box_cam_nang {
+    position: relative;
+    left: 50px;
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    background-color: #f1f1f1;
+}
+
+.icon {
+    text-align: center;
+    background-color: white;
+    width: 56px;
+    padding: 11px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    background-color: #ffd200;
+}
+
+.textcn p {
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.textcn span {
+    font-size: 16px;
+}
+
+.textcn {
+    text-align: center;
+}
+
+
+/* ------------- */
+
+.trongnuoc>p {
+    font-size: 29px;
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 8px;
+}
+
+.box_dulich a {
+    color: black;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.box_dulich a:hover {
+    color: deeppink;
+}
+
+.trongnuoc>span {
+    font-size: 15px;
+}
+
+.ngoainuoc>p {
+    font-size: 29px;
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 8px;
+}
+
+.ngoainuoc>span {
+    font-size: 15px;
+}
+
+.ngoainuoc>hr {
+    width: 473px;
+    border: 0;
+    height: 1px;
+    background: silver;
+    margin: 0 auto;
+    margin-top: 4px;
+    margin-bottom: 100px;
+}
+
+.ngoainuoc {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.trongnuoc {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.trongnuoc>hr {
+    width: 473px;
+    border: 0;
+    height: 1px;
+    background: silver;
+    margin: 0 auto;
+    margin-top: 4px;
+    margin-bottom: 100px;
+}
+
+.box_dulich {
+    width: 363px;
+    height: 360px;
+    box-shadow: 0 0 10px 4px silver;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    position: relative;
+    left: 110px;
+}
+
+.box_dulich .img {
+    /* background: url('img/cauvang.jpg') no-repeat;
+    background-size: cover; */
+    width: 100%;
+    height: 242px;
+    overflow: hidden;
+}
+
+.img>img {
+    transition: 0.4s;
+}
+
+.img>img:hover {
+    transform: scale(1.1);
+}
+
+.address {
+    height: 58px;
+    line-height: 58px;
+    text-align: left;
+    padding-left: 32px;
+}
+
+.price {
+    height: 58px;
+    line-height: 58px;
+    text-align: left;
+    padding-left: 32px;
+}
+
+.box_dulich>hr {
+    border: 0;
+    background: silver;
+    width: 300px;
+    margin: 0 auto;
+    height: 1px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* -------------- yeu thich*/
+
+.yeuthich>p {
+    font-size: 29px;
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 8px;
+}
+
+.yeuthich>span {
+    font-size: 15px;
+}
+
+.yeuthich>hr {
+    width: 473px;
+    border: 0;
+    height: 1px;
+    background: silver;
+    margin: 0 auto;
+    margin-top: 4px;
+    margin-bottom: 100px;
+}
+
+.yeuthich {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.box_yeuthich {
+    width: 363px;
+    height: 360px;
+    box-shadow: 0 0 10px 4px silver;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    position: relative;
+    left: 110px;
+}
+
+.box_yeuthich .img {
+    /* background: url('img/cauvang.jpg') no-repeat;
+    background-size: cover; */
+    width: 100%;
+    height: 242px;
+    overflow: hidden;
+}
+
+.box_yeuthich>hr {
+    border: 0;
+    background: silver;
+    width: 300px;
+    margin: 0 auto;
+    height: 1px;
+}
+
+
+/* -------------- footer ------------------*/
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background: url("ảnh.png") no-repeat;
+    background-size: cover;
+}
+
+.footer img {
+    width: 100%;
+    height: 100%;
+}

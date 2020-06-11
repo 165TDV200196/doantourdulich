@@ -1,0 +1,45 @@
+table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+table td {
+    height: 25px;
+}
+
+th {
+    height: 40px;
+    background-color: #727172;
+    color: white;
+    font-size: 14px;
+}
+
+table p {
+    margin-left: 20px;
+}
+
+#center {
+    text-align: center;
+    width: 100px;
+}
+
+#img {
+    width: 140px;
+}
+
+#tentintuc {
+    width: 300px;
+}
+
+.text>a {
+    text-decoration: none;
+    position: relative;
+    left: 855px;
+    top: 40px;
+    padding: 5px 10px 5px 10px;
+    background-color: tomato;
+    border-radius: 2px;
+}

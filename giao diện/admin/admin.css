@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+    background-color: #f0f3f6;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+
+/* -------------------- menu -------------------- */
+
+
+/* 
+.menu-left {
+    background-color: #3a4651;
+    color: #9da3a8;
+    width: 240px;
+    height: 100vh;
+    float: left;
+}
+
+.slogan {
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+}
+
+ul li:hover {
+    background-color: #2d363f;
+}
+
+.menu ul li:hover a {
+    color: white;
+}
+
+.menu-left ul li {
+    height: 51px;
+    padding-left: 20px;
+    line-height: 51px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: silver;
+}
+
+ul li {
+    list-style-type: none;
+} */
+
+
+/* -------------------------------content--------------------- */
+
+
+/* ---------------------------- header --------------------------- */
+
+
+/* 
+.header {
+    height: 70px;
+    background-color: #d7dde4;
+}
+
+.header>span {
+    line-height: 70px;
+    margin-left: 20px;
+}
+
+.home {
+    float: right;
+    margin-right: 20px;
+}
+
+.home>a {
+    line-height: 70px;
+    text-decoration: none;
+    color: black;
+    list-style: 70px;
+    margin-right: 40px;
+}
+
+.home a>span {
+    margin-left: 10px;
+}
+
+.home img {
+    position: relative;
+    top: 10px;
+} */
+
+
+/* --------------------------------- box ------------------------------ */
+
+.box {
+    width: 100%;
+}
+
+.content-box {
+    width: 1000px;
+    float: left;
+    left: 60px;
+    top: 10px;
+    position: relative;
+    background-color: white;
+}
+
+.text {
+    /* background-color: cornflowerblue; */
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}

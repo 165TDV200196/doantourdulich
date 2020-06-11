@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    background-color: brown;
+    height: 100vh;
+    background: url('congviec.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
+.content p {
+    text-align: center;
+    font-size: 32px;
+    padding: 15px;
+    font-family: serif;
+}
+
+strong#a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.box {
+    width: 359px;
+    color: black;
+    margin: 0 auto;
+    opacity: initial;
+    font-size: 20px;
+}
+
+.content strong {
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+input[type="password"] {
+    height: 22px;
+    width: 260px;
+    border: 0;
+    transition: 0.3s;
+    border-bottom: 1px solid;
+    background-color: cadetblue;
+}
+
+input[type="text"]:hover {
+    width: 350px;
+    border-bottom: 1px solid #4700A8;
+}
+
+input[type="text"] {
+    height: 22px;
+    width: 260px;
+    border: 0;
+    transition: 0.3s;
+    border-bottom: 1px solid;
+    background-color: cadetblue;
+}
+
+input[type="password"]:hover {
+    width: 350px;
+    border-bottom: 1px solid #4700A8;
+}
+
+input[type="submit"] {
+    margin-top: 40px;
+    width: 233px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+    left: 48px;
+    border: 1px solid pink;
+    border-radius: 34px;
+    transition: 0.3s;
+}
+
+::placeholder {
+    color: white;
+}
+
+.bao {
+    float: left;
+    padding: 12px;
+    background-color: blueviolet;
+    margin-right: 20px;
+    border: 1px solid brown;
+    border-radius: 51%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.icon {
+    position: relative;
+    left: 160px;
+    top: 65px;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: black;
+}
+
+.content {
+    background-color: cadetblue;
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 165px;
+    height: 400px;
+    border: 3px solid silver;
+    border-radius: 13px;
+    opacity: 0.8;
+}
+
+div#fb {
+    font-size: 20px;
+    padding: 10px 14px;
+    background-color: #4157a7;
+}
+
+div#gg {
+    padding: 11px 12px;
+    background-color: #e44134;
+}
+
+div#tw {
+    background-color: #1c9deb;
+}
+
+div#gg:hover {
+    background-color: silver;
+    color: red;
+}
+
+div#tw:hover {
+    background-color: silver;
+    color: dodgerblue;
+}
+
+div#fb:hover {
+    background-color: silver;
+    color: blue;
+}

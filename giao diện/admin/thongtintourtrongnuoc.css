@@ -1,0 +1,68 @@
+.text>a {
+    text-decoration: none;
+    position: relative;
+    left: 855px;
+    top: 40px;
+    padding: 5px 10px 5px 10px;
+    background-color: tomato;
+    border-radius: 2px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+th {
+    height: 40px;
+    background-color: #727172;
+    color: white;
+    font-size: 14px;
+}
+
+th#tt {
+    width: 186px;
+}
+
+th#tdc {
+    width: 188px;
+}
+
+th#ldd {
+    width: 186px;
+}
+
+th#edit {
+    width: 97px;
+}
+
+th#xoa {
+    width: 97px;
+}
+
+table td>p {
+    margin-left: 10px;
+}
+
+table td>a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    background-color: blueviolet;
+    transition: 0.2s;
+}
+
+table td>a:hover {
+    background-color: brown;
+    color: white;
+}
+
+#center {
+    text-align: center;
+}
